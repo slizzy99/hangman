@@ -42,7 +42,3 @@ def hangman():
         print("\n")
         print("\n".join(stages))
         print("You lost fucker! The word was {}!".format(word))
-"""
-test edit
-"""
-
