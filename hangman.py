@@ -20,7 +20,7 @@ def hangman():
     print("Welcome To Hangman")
     while wrong < len(stages) - 2:
         print("\n")
-        msg = "Guess a letter!"
+        msg = "Guess a letter! "
         char = input(msg)
         if char in rletters:
             cind = rletters.index(char)
